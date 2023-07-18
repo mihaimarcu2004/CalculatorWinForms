@@ -12,9 +12,35 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // a + b
+            try
+            {
+                int a = int.Parse(textBox1.Text);
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Textbox value not integer.");
+            }
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
