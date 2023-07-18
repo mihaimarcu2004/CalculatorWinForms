@@ -8,7 +8,14 @@ namespace WindowsFormsApp1.Services
 {
     interface ICalculatorServices
     {
-        int Addition(int x, int y);
-        int Subtraction(int x, int y);
+        double Addition(double x, double y);
+        double Subtraction(double x, double y);
+        double Division(double x, double y);
+        double Multiplication(double x, double y);
+        double Squared(double x);
+        double Inv(double x);
+        double Module(double x, double y);
+        double Sqrt(double x);
+
     }
 }
