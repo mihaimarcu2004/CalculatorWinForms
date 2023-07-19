@@ -55,6 +55,7 @@ namespace WindowsFormsApp1
             this.button22 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -70,9 +71,9 @@ namespace WindowsFormsApp1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(84, 9);
+            this.textBox1.Location = new System.Drawing.Point(79, 63);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(587, 35);
+            this.textBox1.Size = new System.Drawing.Size(587, 20);
             this.textBox1.TabIndex = 1;
             // 
             // button2
@@ -99,9 +100,9 @@ namespace WindowsFormsApp1
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(130, 171);
+            this.button4.Location = new System.Drawing.Point(130, 222);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(134, 67);
+            this.button4.Size = new System.Drawing.Size(130, 44);
             this.button4.TabIndex = 4;
             this.button4.Text = "7";
             this.button4.UseVisualStyleBackColor = true;
@@ -120,9 +121,9 @@ namespace WindowsFormsApp1
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(445, 172);
+            this.button6.Location = new System.Drawing.Point(464, 222);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(137, 67);
+            this.button6.Size = new System.Drawing.Size(118, 44);
             this.button6.TabIndex = 6;
             this.button6.Text = "9";
             this.button6.UseVisualStyleBackColor = true;
@@ -130,9 +131,9 @@ namespace WindowsFormsApp1
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(279, 171);
+            this.button7.Location = new System.Drawing.Point(292, 222);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(145, 67);
+            this.button7.Size = new System.Drawing.Size(132, 44);
             this.button7.TabIndex = 7;
             this.button7.Text = "8";
             this.button7.UseVisualStyleBackColor = true;
@@ -140,9 +141,9 @@ namespace WindowsFormsApp1
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(130, 244);
+            this.button8.Location = new System.Drawing.Point(130, 283);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(134, 62);
+            this.button8.Size = new System.Drawing.Size(130, 40);
             this.button8.TabIndex = 8;
             this.button8.Text = "4";
             this.button8.UseVisualStyleBackColor = true;
@@ -150,9 +151,9 @@ namespace WindowsFormsApp1
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(279, 244);
+            this.button9.Location = new System.Drawing.Point(292, 283);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(145, 62);
+            this.button9.Size = new System.Drawing.Size(132, 40);
             this.button9.TabIndex = 9;
             this.button9.Text = "5";
             this.button9.UseVisualStyleBackColor = true;
@@ -160,9 +161,9 @@ namespace WindowsFormsApp1
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(445, 244);
+            this.button10.Location = new System.Drawing.Point(464, 283);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(137, 62);
+            this.button10.Size = new System.Drawing.Size(121, 40);
             this.button10.TabIndex = 10;
             this.button10.Text = "6";
             this.button10.UseVisualStyleBackColor = true;
@@ -170,9 +171,9 @@ namespace WindowsFormsApp1
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(130, 312);
+            this.button11.Location = new System.Drawing.Point(130, 339);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(134, 61);
+            this.button11.Size = new System.Drawing.Size(130, 34);
             this.button11.TabIndex = 11;
             this.button11.Text = "1";
             this.button11.UseVisualStyleBackColor = true;
@@ -180,9 +181,9 @@ namespace WindowsFormsApp1
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(279, 312);
+            this.button12.Location = new System.Drawing.Point(292, 339);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(145, 61);
+            this.button12.Size = new System.Drawing.Size(132, 34);
             this.button12.TabIndex = 12;
             this.button12.Text = "2";
             this.button12.UseVisualStyleBackColor = true;
@@ -190,9 +191,9 @@ namespace WindowsFormsApp1
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(445, 312);
+            this.button13.Location = new System.Drawing.Point(461, 339);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(137, 61);
+            this.button13.Size = new System.Drawing.Size(121, 43);
             this.button13.TabIndex = 13;
             this.button13.Text = "3";
             this.button13.UseVisualStyleBackColor = true;
@@ -200,9 +201,9 @@ namespace WindowsFormsApp1
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(279, 379);
+            this.button14.Location = new System.Drawing.Point(292, 397);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(145, 59);
+            this.button14.Size = new System.Drawing.Size(132, 41);
             this.button14.TabIndex = 14;
             this.button14.Text = "0";
             this.button14.UseVisualStyleBackColor = true;
@@ -211,9 +212,9 @@ namespace WindowsFormsApp1
             // button15
             // 
             this.button15.BackColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(445, 379);
+            this.button15.Location = new System.Drawing.Point(461, 397);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(140, 59);
+            this.button15.Size = new System.Drawing.Size(124, 41);
             this.button15.TabIndex = 15;
             this.button15.Text = ".";
             this.button15.UseVisualStyleBackColor = false;
@@ -222,9 +223,9 @@ namespace WindowsFormsApp1
             // button16
             // 
             this.button16.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button16.Location = new System.Drawing.Point(130, 379);
+            this.button16.Location = new System.Drawing.Point(130, 397);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(134, 59);
+            this.button16.Size = new System.Drawing.Size(130, 41);
             this.button16.TabIndex = 16;
             this.button16.Text = "+/-";
             this.button16.UseVisualStyleBackColor = false;
@@ -233,9 +234,9 @@ namespace WindowsFormsApp1
             // button17
             // 
             this.button17.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button17.Location = new System.Drawing.Point(445, 50);
+            this.button17.Location = new System.Drawing.Point(461, 110);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(137, 44);
+            this.button17.Size = new System.Drawing.Size(121, 34);
             this.button17.TabIndex = 17;
             this.button17.Text = "C";
             this.button17.UseVisualStyleBackColor = false;
@@ -244,9 +245,9 @@ namespace WindowsFormsApp1
             // button18
             // 
             this.button18.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button18.Location = new System.Drawing.Point(279, 110);
+            this.button18.Location = new System.Drawing.Point(292, 161);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(145, 52);
+            this.button18.Size = new System.Drawing.Size(131, 41);
             this.button18.TabIndex = 18;
             this.button18.Text = "x^2";
             this.button18.UseVisualStyleBackColor = false;
@@ -255,9 +256,9 @@ namespace WindowsFormsApp1
             // button19
             // 
             this.button19.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button19.Location = new System.Drawing.Point(126, 110);
+            this.button19.Location = new System.Drawing.Point(126, 161);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(134, 52);
+            this.button19.Size = new System.Drawing.Size(134, 41);
             this.button19.TabIndex = 19;
             this.button19.Text = "1/x";
             this.button19.UseVisualStyleBackColor = false;
@@ -266,9 +267,9 @@ namespace WindowsFormsApp1
             // button20
             // 
             this.button20.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button20.Location = new System.Drawing.Point(445, 110);
+            this.button20.Location = new System.Drawing.Point(464, 161);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(137, 52);
+            this.button20.Size = new System.Drawing.Size(121, 41);
             this.button20.TabIndex = 20;
             this.button20.Text = "sqrt(x)";
             this.button20.UseVisualStyleBackColor = false;
@@ -277,9 +278,9 @@ namespace WindowsFormsApp1
             // button21
             // 
             this.button21.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button21.Location = new System.Drawing.Point(126, 50);
+            this.button21.Location = new System.Drawing.Point(126, 110);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(134, 44);
+            this.button21.Size = new System.Drawing.Size(134, 34);
             this.button21.TabIndex = 21;
             this.button21.Text = "%";
             this.button21.UseVisualStyleBackColor = false;
@@ -288,9 +289,9 @@ namespace WindowsFormsApp1
             // button22
             // 
             this.button22.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button22.Location = new System.Drawing.Point(279, 50);
+            this.button22.Location = new System.Drawing.Point(292, 110);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(145, 44);
+            this.button22.Size = new System.Drawing.Size(132, 34);
             this.button22.TabIndex = 22;
             this.button22.Text = "CE";
             this.button22.UseVisualStyleBackColor = false;
@@ -318,11 +319,19 @@ namespace WindowsFormsApp1
             this.button24.UseVisualStyleBackColor = false;
             this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(79, 12);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(587, 20);
+            this.textBox2.TabIndex = 25;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button24);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.button22);
@@ -352,6 +361,7 @@ namespace WindowsFormsApp1
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -384,6 +394,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 

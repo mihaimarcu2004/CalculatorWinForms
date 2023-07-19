@@ -32,6 +32,9 @@ namespace WindowsFormsApp1
             try
             {
                 a = double.Parse(x);
+              
+                textBox2.Text = textBox1.Text + "+";
+                
                 textBox1.Text = null;
                 op = 1;
             }
@@ -51,6 +54,7 @@ namespace WindowsFormsApp1
             string x = textBox1.Text;
             try
             {
+                textBox2.Text = textBox1.Text + "-";
                 a = double.Parse(x);
                 textBox1.Text = null;
                 op = 2;
@@ -110,6 +114,8 @@ namespace WindowsFormsApp1
                     double rez = s.Division(a, b);
                     textBox1.Text = rez.ToString();
                 }
+                textBox2.Text+=b+"=";
+                textBox2.Text += textBox1.Text;
                 op = 0;
             }
             catch
@@ -139,6 +145,7 @@ namespace WindowsFormsApp1
             try
             {
                 a = double.Parse(x);
+                textBox2.Text = textBox1.Text + "*";
                 textBox1.Text = null;
                 op = 4;
             }
@@ -257,12 +264,14 @@ namespace WindowsFormsApp1
                 rez += aj;
             }
             textBox1.Text = rez;
+            lastop = 0;
 
         }
 
         private void button17_Click(object sender, EventArgs e)
         {
             textBox1.Text = null;
+            textBox2.Text = null;
             a = 0;
         }
         private void button18_Click(object sender, EventArgs e)
@@ -275,6 +284,7 @@ namespace WindowsFormsApp1
             try
             {
                 a = double.Parse(x);
+                textBox2.Text = textBox1.Text + "^2";
                 op = 5;
             }
             catch
@@ -293,6 +303,7 @@ namespace WindowsFormsApp1
             try
             {
                 a = double.Parse(x);
+                textBox2.Text= "1/" +textBox1;
                 op = 6;
             }
             catch
@@ -310,6 +321,7 @@ namespace WindowsFormsApp1
             try
             {
                 a = double.Parse(x);
+                textBox2.Text = "sqrt( "+textBox1.Text + " )";
                 op = 7;
             }
             catch
@@ -328,7 +340,9 @@ namespace WindowsFormsApp1
             try
             {
                 a = double.Parse(x);
+                textBox2.Text = textBox1.Text + "%";
                 textBox1.Text = null;
+                
                 op = 8;
             }
             catch
@@ -358,6 +372,7 @@ namespace WindowsFormsApp1
             try
             {
                 a = double.Parse(x);
+                textBox2.Text = textBox1.Text + "/";
                 textBox1.Text = null;
                 op = 9;
             }
