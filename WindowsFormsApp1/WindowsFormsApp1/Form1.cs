@@ -114,8 +114,15 @@ namespace WindowsFormsApp1
                     double rez = s.Division(a, b);
                     textBox1.Text = rez.ToString();
                 }
-                textBox2.Text+=b+"=";
-                textBox2.Text += textBox1.Text;
+                if(op==1 || op==2 || op==4 || op==8 || op==9)
+                {
+                    textBox2.Text += b + "=";
+                    textBox2.Text += textBox1.Text;
+                }
+                else
+                {
+                    textBox2.Text += "="+textBox1.Text;
+                }
                 op = 0;
             }
             catch
@@ -303,7 +310,7 @@ namespace WindowsFormsApp1
             try
             {
                 a = double.Parse(x);
-                textBox2.Text= "1/" +textBox1;
+                textBox2.Text= "1/" +textBox1.Text;
                 op = 6;
             }
             catch
