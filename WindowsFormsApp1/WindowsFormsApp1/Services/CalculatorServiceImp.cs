@@ -19,15 +19,7 @@ namespace WindowsFormsApp1.Services
         }
         public double Division(double x, double y)
         {
-            try
-            {
-                return x / y;
-            }
-            catch
-            {
-                Console.WriteLine("nu se poate imparti la 0");
-                return 0;
-            }
+            return x / y;
         }
         public double Multiplication(double x, double y)
         {
