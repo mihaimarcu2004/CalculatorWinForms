@@ -52,10 +52,14 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\OperationType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\CalculatorServiceImp.cs" />
     <Compile Include="Services\ICalculatorServices.cs" />
+    <Compile Include="Models\QueueNumberItem.cs" />
+    <Compile Include="Models\IQueueItem.cs" />
+    <Compile Include="Models\QueueOperationItem.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

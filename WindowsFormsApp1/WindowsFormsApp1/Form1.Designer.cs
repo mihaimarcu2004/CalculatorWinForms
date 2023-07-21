@@ -71,8 +71,10 @@ namespace WindowsFormsApp1
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(79, 63);
+            this.textBox1.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.textBox1.Location = new System.Drawing.Point(72, 74);
             this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
             this.textBox1.Size = new System.Drawing.Size(587, 20);
             this.textBox1.TabIndex = 1;
             // 
@@ -321,8 +323,10 @@ namespace WindowsFormsApp1
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(79, 12);
+            this.textBox2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.textBox2.Location = new System.Drawing.Point(72, 48);
             this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
             this.textBox2.Size = new System.Drawing.Size(587, 20);
             this.textBox2.TabIndex = 25;
             // 
@@ -358,7 +362,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

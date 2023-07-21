@@ -13,9 +13,13 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        readonly ICalculatorServices _service = new CalculatorServiceImp();
+
+
         double a, b;
-        int op=0;
+        int op = 0;
         int lastop = 0;
+        
         public Form1()
         {
             InitializeComponent();
@@ -32,9 +36,9 @@ namespace WindowsFormsApp1
             try
             {
                 a = double.Parse(x);
-              
+
                 textBox2.Text = textBox1.Text + "+";
-                
+
                 textBox1.Text = null;
                 op = 1;
             }
@@ -42,7 +46,7 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Nu e text");
             }
-           
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -63,7 +67,7 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Nu e text");
             }
-            
+
         }
         private void button3_Click(object sender, EventArgs e)
         {
@@ -114,6 +118,7 @@ namespace WindowsFormsApp1
                     double rez = s.Division(a, b);
                     textBox1.Text = rez.ToString();
                 }
+<<<<<<< HEAD
                 if(op==1 || op==2 || op==4 || op==8 || op==9)
                 {
                     textBox2.Text += b + "=";
@@ -123,18 +128,22 @@ namespace WindowsFormsApp1
                 {
                     textBox2.Text += "="+textBox1.Text;
                 }
+=======
+                textBox2.Text += b + "=";
+                textBox2.Text += textBox1.Text;
+>>>>>>> e4b8c5cd05550e971363be6254de268b2b7e85b0
                 op = 0;
             }
             catch
             {
                 MessageBox.Show("Nu e text");
             }
-            
+
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if(lastop==1)
+            if (lastop == 1)
             {
                 lastop = 0;
                 textBox1.Text = null;
@@ -144,7 +153,7 @@ namespace WindowsFormsApp1
         }
         private void button5_Click(object sender, EventArgs e)
         {
-            if(op!=0)
+            if (op != 0)
             {
                 button3.PerformClick();
             }
@@ -160,7 +169,7 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Nu e text");
             }
-            
+
         }
         private void button6_Click(object sender, EventArgs e)
         {
@@ -257,11 +266,11 @@ namespace WindowsFormsApp1
         private void button16_Click(object sender, EventArgs e)
         {
             string rez = textBox1.Text;
-            string aj=null;
-            if (rez.Length>0 && rez[0] == '-')
+            string aj = null;
+            if (rez.Length > 0 && rez[0] == '-')
             {
                 for (int i = 1; i < rez.Length; ++i)
-                    aj+=rez[i];
+                    aj += rez[i];
                 rez = aj;
             }
             else
@@ -298,7 +307,7 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Nu e text");
             }
-            
+
         }
         private void button19_Click(object sender, EventArgs e)
         {
@@ -310,7 +319,11 @@ namespace WindowsFormsApp1
             try
             {
                 a = double.Parse(x);
+<<<<<<< HEAD
                 textBox2.Text= "1/" +textBox1.Text;
+=======
+                textBox2.Text = "1/" + textBox1;
+>>>>>>> e4b8c5cd05550e971363be6254de268b2b7e85b0
                 op = 6;
             }
             catch
@@ -328,14 +341,14 @@ namespace WindowsFormsApp1
             try
             {
                 a = double.Parse(x);
-                textBox2.Text = "sqrt( "+textBox1.Text + " )";
+                textBox2.Text = "sqrt( " + textBox1.Text + " )";
                 op = 7;
             }
             catch
             {
                 MessageBox.Show("Nu e text");
             }
-            
+
         }
         private void button21_Click(object sender, EventArgs e)
         {
@@ -349,14 +362,14 @@ namespace WindowsFormsApp1
                 a = double.Parse(x);
                 textBox2.Text = textBox1.Text + "%";
                 textBox1.Text = null;
-                
+
                 op = 8;
             }
             catch
             {
                 MessageBox.Show("Nu e text");
             }
-            
+
         }
 
         private void button22_Click(object sender, EventArgs e)
@@ -387,7 +400,7 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Nu e text");
             }
-            
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -395,17 +408,17 @@ namespace WindowsFormsApp1
 
         }
 
-       
 
-      
-     
 
-       
 
-       
 
-       
 
-      
+
+
+
+
+
+
+
     }
 }
